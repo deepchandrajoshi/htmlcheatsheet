@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML CheatSheet">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Deep Chandra Joshi">
+    <title>HTML CheatSheet By DeepChandraJoshi</title>
+    <link rel="stylesheet" href="/Assets/CSS/style.css">
+    <link rel="stylesheet" href="/Assets/CSS/prism.css">
+    <script src="/Assets/JS/prism.js"></script>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="/Assets/img/DecoderDeep1.webp" alt=""></span>
+        <div class="content center">
+            This HTML CheatSheet is for You!
+        </div>
+    </nav>
+
+    <div class="container">
+        <ol>
+            <li>Anatomy of an HTML element</li>
+            <img src="/Assets/img/Anatomy of an HTML element.png" alt="">
+
+            <hr />
+
+            <li>HTML Boilerplate</li>
+            <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta name="description" content="A description of the page"&gt;
+    &lt;meta name="author" content="author name"&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    Content...
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+
+
+            <hr />
+
+            <li>Adding custom icons to your site</li>
+            <pre
+                class="language-html"><code>&lt;link rel="icon" href="favicon.ico" type="image/x-icon"  /&gt;</code></pre>
+
+            <hr />
+
+            <li>HTML Text and Formatting</li>
+            <pre class="language-html"><code>&lt;p&gt;Hey! I am a Paragraph&lt;/p&gt;
+&lt;h1&gt;Hey! I am a h1 heading&lt;/h1&gt;
+:
+:
+&lt;h6&gt;Hey! I am a h1 heading&lt;/h6&gt;
+
+\\ Text Formatting
+&lt;b&gt;I am a bold text&lt;/b&gt;
+&lt;strong&gt;I am a strong text&lt;/strong&gt;
+&lt;i&gt;I am a italic text&lt;/i&gt;
+&lt;em&gt;I am a Emphasis text&lt;/em&gt;
+&lt;u&gt;I am a underline text&lt;/u&gt;
+&lt;mark&gt;I am a highlighted text&lt;/mark&gt;
+            </code></pre>
+
+            <li>Marquee</li>
+            <h2>HTMLMarqueeElement.behavior</h2>
+            <p>Sets how the text is scrolled within the marquee. Possible values are <b>scroll</b>, <b>slide</b> and
+                <b>alternate</b>. If no
+                value is specified, the default value is scroll.
+            </p>
+            <pre class="language-html"><code>&lt;marquee behavior="alternate"&gt;Hey! I am a marquee text&lt;/marquee&gt;
+&lt;marquee behavior="scroll"&gt;Hey! I am a marquee text&lt;/marquee&gt;
+&lt;marquee behavior="slide"&gt;Hey! I am a marquee text&lt;/marquee&gt;</code></pre>
+
+
+
+
+            <h2>HTMLMarqueeElement.bgColor</h2>
+            <p>Sets the background color through color name or hexadecimal value.</p>
+            <pre
+                class="language-html"><code>&lt;marquee bgColor="red"&gt;Hey! I am a marquee text&lt;/marquee&gt;</code></pre>
+
+
+
+
+            <h2>HTMLMarqueeElement.direction</h2>
+            <p>Sets the direction of the scrolling within the marquee. Possible values are <b>left</b>, <b>right</b>,
+                <b>up</b> and <b>down</b>. If no value is specified, the default value is left.
+            </p>
+            <pre class="language-html"><code>&lt;marquee direction="down"&gt;Hey! I am a marquee text&lt;/marquee&gt;
+&lt;marquee direction="up"&gt;Hey! I am a marquee text&lt;/marquee&gt;
+&lt;marquee direction="right"&gt;Hey! I am a marquee text&lt;/marquee&gt;
+&lt;marquee direction="up"&gt;Hey! I am a marquee text&lt;/marquee&gt;</code></pre>
+
+
+
+
+            <h2>HTMLMarqueeElement.height.width</h2>
+            <p>Sets the height and width in pixels or percentage value.</p>
+            <pre
+                class="language-html"><code>&lt;marquee height="100px" width="200px"&gt;Hey! I am a marquee text&lt;/marquee&gt;</code></pre>
+
+
+
+
+            <h2>HTMLMarqueeElement.hspace.vspace</h2>
+            <p>Sets the horizontal and vertical margin.</p>
+            <pre
+                class="language-html"><code>&lt;marquee vspace="50px" hspace="70px"&gt;Hey! I am a marquee text&lt;/marquee&gt;</code></pre>
+
+
+
+            <h2>HTMLMarqueeElement.scrollAmount</h2>
+            <p>Sets the amount of scrolling at each interval in pixels. The default value is 6.</p>
+            <pre
+                class="language-html"><code>&lt;marquee scrollAmount="100"&gt;Hey! I am a marquee text&lt;/marquee&gt;</code></pre>
+
+
+
+            <h2>HTMLMarqueeElement.scrollDelay.trueSpeed</h2>
+            <p>By default, scrollDelay values lower than 60 are ignored. If trueSpeed is true, then those values are not
+                ignored. Sets the interval between each scroll movement in milliseconds. The default value is 85. Note
+                that any value smaller than 60 is ignored and the value 60 is used instead, unless trueSpeed is true.
+            </p>
+            <pre
+                class="language-html"><code>&lt;marquee scrollDelay="90" trueSpeed="true"&gt;Hey! I am a marquee text&lt;/marquee&gt;</code></pre>
+
+
+            <h2>HTMLMarqueeElement.loop</h2>
+            <p>Sets the number of times the marquee will scroll. If no value is specified, the default value is −1,
+                which means the marquee will scroll continuously.</p>
+            <pre class="language-html"><code>&lt;marquee loop&gt;Hey! I am a marquee text&lt;/marquee&gt;</code></pre>
+
+            <hr />
+
+        </ol>
+    </div>
+
+
+</body>
+
+</html>
