@@ -54,3 +54,27 @@ footer:hover {
   background-color: rgb(14, 6, 6);
   color: rgb(98, 184, 0);
 }
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.faq-question {
+  background-color: #f5f5f5;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.faq-answer {
+  padding: 10px;
+  display: none;
+}
+
+.faq-answer.active {
+  display: block;
+}
