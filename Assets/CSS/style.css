@@ -8,6 +8,18 @@
 body {
   background-color: rgb(65, 57, 57);
 }
+.music-section {
+  border: 2px solid red;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 20px;
+  background-color: red;
+}
 .downloadExcel {
   border: 2px solid red;
   border-radius: 12px;
